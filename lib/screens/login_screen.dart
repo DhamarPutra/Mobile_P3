@@ -38,7 +38,12 @@ class _LoginScreenState extends State<LoginScreen> {
               obscureText: true,
             ),
             SizedBox(height: 20),
-            ElevatedButton(onPressed: login, child: Text("Login")),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/dashboard');
+              },
+              child: Text("Login"),
+            ),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {

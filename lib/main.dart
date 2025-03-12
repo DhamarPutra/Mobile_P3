@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_p3/screens/dashboard_screen.dart';
 import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
 import 'theme.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login': (context) => LoginScreen(),
         '/register': (context) => RegisterScreen(),
+        '/dashboard': (context) => DashboardScreen(),
       },
     );
   }

@@ -28,4 +28,14 @@ class ApiService {
 
     return jsonDecode(response.body);
   }
+
+  static Future<List<dynamic>> get_user() async {
+    final response = await http.get(Uri.parse("$_baseUrl/get_users.php"));
+
+    if (response.statusCode == 200) {
+      return json.decode(response.body);
+    } else {
+      throw Exception("Gagal mengambil data pengguna");
+    }
+  }
 }
