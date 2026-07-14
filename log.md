@@ -1,3 +1,3 @@
-WIB: Tuesday, 14 July 2026 10.15.10 UTC
-WITA: Tuesday, 14 July 2026 11.15.10 UTC
-WIT: Tuesday, 14 July 2026 12.15.10 UTC
+WIB: Tuesday, 14 July 2026 13.10.20 UTC
+WITA: Tuesday, 14 July 2026 14.10.20 UTC
+WIT: Tuesday, 14 July 2026 15.10.20 UTC
